@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
-  <default revision="refs/tags/android-4.1.1_r1"
+  <default revision="refs/tags/android-4.1.1_r3"
            remote="aosp"
            sync-j="4" />
 
@@ -297,6 +297,7 @@
   <project path="system/vold" name="platform/system/vold" />
 
   <project path="frameworks/base" name="barrmy/platform_frameworks_base" remote="gh" revision="master" />
+  <project path="vendor" name="barrmy/vendor_asus_grouper" remote="gh" revision="master" />
   <project path="external/busybox" name="barrmy/android_external_busybox" remote="gh" revision="jellybean" />
 
 </manifest>
