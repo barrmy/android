@@ -296,7 +296,7 @@
   <project path="system/security" name="platform/system/security" />
   <project path="system/vold" name="platform/system/vold" />
 
-  <project path="frameworks/base" name="barrmy/android_frameworks_base" remote="gh" revision="master" />
+  <project path="frameworks/base" name="barrmy/platform_frameworks_base" remote="gh" revision="master" />
   <project path="external/busybox" name="barrmy/android_external_busybox" remote="gh" revision="jellybean" />
 
 </manifest>
