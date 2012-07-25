@@ -297,7 +297,6 @@
 
   <project path="frameworks/base" name="barrmy/platform_frameworks_base" remote="gh" revision="master" />
   <project path="vendor" name="barrmy/vendor_asus_grouper" remote="gh" revision="master" />
-  <project path="device/asus/grouper" name="barrmy/device/asus/grouper" remote="gh" revision="master" />
   <project path="external/busybox" name="barrmy/android_external_busybox" remote="gh" revision="jellybean" />
 
 </manifest>
