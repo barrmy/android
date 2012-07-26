@@ -11,6 +11,10 @@
 <remote  name="gh"
            fetch="https://github.com/"
            revision="master" />
+           
+<remote  name="sgt7"
+           fetch="https://github.com/"
+           revision="jellybean" />
 
   <project path="build" name="platform/build" >
     <copyfile src="core/root.mk" dest="Makefile" />
