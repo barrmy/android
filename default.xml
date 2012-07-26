@@ -8,7 +8,6 @@
            remote="aosp"
            sync-j="4" />
 
-
 <remote  name="gh"
            fetch="https://github.com/"
            revision="master" />
@@ -24,11 +23,11 @@
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
+  <project path="device/asus/grouper" name="device/asus/grouper" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" />
-  <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
   <project path="external/android-mock" name="platform/external/android-mock" />
   <project path="external/antlr" name="platform/external/antlr" />
@@ -174,6 +173,7 @@
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="platform/frameworks/av" />
+  <project path="frameworks/base" name="platform/frameworks/base" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" />
@@ -295,8 +295,6 @@
   <project path="system/security" name="platform/system/security" />
   <project path="system/vold" name="platform/system/vold" />
 
-  <project path="frameworks/base" name="barrmy/platform_frameworks_base" remote="gh" revision="master" />
-  <project path="device/asus/grouper" name="barrmy/device_asus_grouper" remote="gh" revision="master" />
   <project path="vendor" name="barrmy/vendor_asus_grouper" remote="gh" revision="master" />
 
 </manifest>
