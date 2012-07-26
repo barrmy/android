@@ -9,7 +9,7 @@ familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
 To initialize your local repository using the CyanogenMod trees, use a command like this:
 
-    repo init -u git://github.com/barrmy/android.git -b master
+    repo init -u https://github.com/barrmy/android.git -b master
 
 Then to sync up:
 
