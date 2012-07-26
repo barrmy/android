@@ -300,6 +300,6 @@
   <project path="system/vold" name="platform/system/vold" />
 
   <project path="vendor" name="barrmy/vendor_asus_grouper" remote="gh" revision="master" />
-  <project path="external/guava" name="barrmy/android_external_guava" remote="gh" revision="master" />
+<!--  <project path="external/guava" name="barrmy/android_external_guava" remote="gh" revision="master" /> -->
 
 </manifest>
