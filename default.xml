@@ -27,7 +27,6 @@
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
-  <project path="device/asus/grouper" name="device/asus/grouper" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" />
@@ -300,8 +299,8 @@
   <project path="system/vold" name="platform/system/vold" />
 
   <project path="vendor" name="barrmy/vendor_asus_grouper" remote="gh" revision="master" />
-  <project path="device/asus/grouper/prebuilt" name="barrmy/device_asus_grouper_prebuilt" remote="gh" revision="master" />
   <project path="build/target/product/security" name="barrmy/build_target_product_security" remote="gh" revision="master" />
+  <project path="device/asus/grouper" name="barrmy/device_asus_grouper" remote="gh" revision="master" />
   <project path="packages/apps/Superuser" name="barrmy/Superuser" remote="gh" revision="master" />
   
 <!--  <project path="external/guava" name="barrmy/external_guava" remote="gh" revision="master" /> -->
