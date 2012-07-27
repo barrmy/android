@@ -301,7 +301,9 @@
 
   <project path="vendor" name="barrmy/vendor_asus_grouper" remote="gh" revision="master" />
   <project path="device/asus/grouper/prebuilt" name="barrmy/device_asus_grouper_prebuilt" remote="gh" revision="master" />
+  <project path="build/target/product/security" name="barrmy/build_target_product_security" remote="gh" revision="master" />
   <project path="packages/apps/Superuser" name="barrmy/Superuser" remote="gh" revision="master" />
+  
 <!--  <project path="external/guava" name="barrmy/external_guava" remote="gh" revision="master" /> -->
 <!--  <project path="frameworks/base" name="barrmy/frameworks_base" remote="gh" revision="master" /> -->
 
