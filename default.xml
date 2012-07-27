@@ -300,6 +300,7 @@
   <project path="system/vold" name="platform/system/vold" />
 
   <project path="vendor" name="barrmy/vendor_asus_grouper" remote="gh" revision="master" />
+  <project path="device/asus/grouper/prebuilt" name="device_asus_grouper_prebuilt" remote="gh" revision="master" />
 <!--  <project path="external/guava" name="barrmy/external_guava" remote="gh" revision="master" /> -->
 <!--  <project path="frameworks/base" name="barrmy/frameworks_base" remote="gh" revision="master" /> -->
 
